@@ -7,6 +7,7 @@ exports.Counter = Counter
 
 exports.handlers = {
   async fetch(request, env) {
+    console.log(request)
     try {
       return await handleRequest(request, env)
     } catch (e) {

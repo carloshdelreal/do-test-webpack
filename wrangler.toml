@@ -1,7 +1,7 @@
-name = "worker"
+name = "do-test"
 # type = "javascript" is required to use the `[build]` section
 type = "javascript"
-account_id = ""
+account_id = "9a528f69de44167d6e10333ab59f7b23"
 workers_dev = true
 route = ""
 zone_id = ""
@@ -14,4 +14,4 @@ upload_format = "modules"
 upload_exclude = ["*.map"]
 
 [durable_objects]
-bindings = [{name = "COUNTER", class_name = "Counter"}]
+bindings = [{ name = "COUNTER", class_name = "Counter" }]
