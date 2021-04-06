@@ -1,0 +1,22 @@
+{
+  "editor.codeActionsOnSave": ["source.fixAll.format", "source.fixAll.eslint"],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": true,
+  "editor.formatOnSave": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "prettier.useEditorConfig": false,
+  "todo-tree.tree.showBadges": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "yaml.completion": true,
+  "yaml.format.bracketSpacing": true,
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
+  "yaml.hover": true,
+  "yaml.validate": true
+}

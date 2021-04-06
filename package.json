@@ -3,6 +3,7 @@
   "name": "do-test",
   "version": "1.0.0",
   "description": "A template for kick starting a Cloudflare Workers project",
+  "author": "carloshdelreal, maxastuart",
   "module": "./dist/shim.mjs",
   "main": "./dist/index.js",
   "scripts": {

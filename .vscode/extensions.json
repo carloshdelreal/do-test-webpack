@@ -1,0 +1,33 @@
+{
+  "recommendations": [
+    "attilabuti.vscode-mjml",
+    "codezombiech.gitignore",
+    "davidanson.vscode-markdownlint",
+    "dbaeumer.vscode-eslint",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "ecmel.vscode-html-css",
+    "esbenp.prettier-vscode",
+    "GraphQL.vscode-graphql",
+    "gruntfuggly.todo-tree",
+    "jasonlhy.hungry-delete",
+    "jpoissonnier.vscode-styled-components",
+    "mgmcdermott.vscode-language-babel",
+    "mikestead.dotenv",
+    "ms-azuretools.vscode-docker",
+    "ms-mssql.mssql",
+    "ms-vsliveshare.vsliveshare-pack",
+    "naumovs.color-highlight",
+    "nhoizey.gremlins",
+    "paulmolluzzo.convert-css-in-js",
+    "redhat.vscode-yaml",
+    "rohit-gohri.format-code-action",
+    "silvenon.mdx",
+    "streetsidesoftware.code-spell-checker",
+    "tamasfe.even-better-toml",
+    "tyriar.sort-lines",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "Zignd.html-css-class-completion"
+  ],
+  "unwantedRecommendations": ["NuclleaR.vscode-extension-auto-import"]
+}
