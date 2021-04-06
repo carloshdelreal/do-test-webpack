@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2019",
+    "strict": true,
+    "noImplicitAny": false, // 22 errors
+    "strictNullChecks": false // 215 errors
+  },
+  "include": ["src/**/*"],
+  "exclude": []
+}

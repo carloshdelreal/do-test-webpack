@@ -1,11 +1,11 @@
-const isOdd = require('is-odd')
+import isOdd from 'is-odd'
 
 // In order for our ES6 shim to find the class, we must export it
 // from the root of the CommonJS bundle
-const Counter = require('./counter.js')
-exports.Counter = Counter
+export {Counter} from './counter'
 
-exports.handlers = {
+
+export const handlers = {
   async fetch(request, env) {
     console.log(request)
     try {
@@ -21,7 +21,7 @@ async function handleRequest(request, env) {
   let obj = env.COUNTER.get(id)
   let resp = await obj.fetch(request.url)
   let count = parseInt(await resp.text())
-  let wasOdd = isOdd(count) ? 'is odd' : 'is even'
+  let wasOdd = (count%2 === 0) ? 'is odd' : 'is even'
 
   return new Response(`${count} ${wasOdd}`)
 }
