@@ -10,9 +10,7 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "target": "es2019",
-    "strict": true,
-    "noImplicitAny": false, // 22 errors
-    "strictNullChecks": false // 215 errors
+    "strict": true
   },
   "include": ["src/**/*"],
   "exclude": []

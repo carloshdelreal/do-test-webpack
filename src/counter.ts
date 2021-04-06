@@ -13,6 +13,7 @@ export class Counter {
     // Make sure we're fully initialized from storage.
     if (!this.initializePromise) {
       this.initializePromise = this.initialize().catch((err) => {
+        // ...GRANDFATHER CLOUDFLARE SAYS...
         // If anything throws during initialization then we need to be
         // sure sure that a future request will retry initialize().
         // Note that the concurrency involved in resetting this shared
