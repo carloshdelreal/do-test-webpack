@@ -1,4 +1,4 @@
-const CopyPlugin = require('copy-webpack-plugin')
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
   devtool: 'source-map',
@@ -33,4 +33,4 @@ module.exports = {
     plugins: [],
   },
   target: 'web',
-}
+};
